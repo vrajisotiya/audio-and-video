@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Audio and Video</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Our Media Gallery</h1>
+
+      <!-- Audio Section -->
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="media-container">
+            <h2 class="mb-4">Featured Audio</h2>
+            <audio controls controlsList="nodownload ">
+              <source
+                src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                type="audio/mpeg"
+              />
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video Section -->
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="media-container">
+            <h2 class="mb-4">Showcase Video</h2>
+            <video
+              controls
+              loop
+              id="galleryVideo"
+              controlsList="nodownload nofullscreen"
+              disablepictureinpicture
+            >
+              <source
+                src="https://www.w3schools.com/html/mov_bbb.mp4"
+                type="video/mp4"
+              />
+              <track
+                kind="subtitles"
+                label="English"
+                srclang="en"
+                src="subtitle.vtt"
+                default
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
