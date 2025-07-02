@@ -1,0 +1,24 @@
+body {
+  background-color: #f8f9fa; /* Light background */
+  padding-top: 50px;
+  font-family: "Inter", sans-serif; /* Using Inter font as per instructions */
+}
+.media-container {
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+h1,
+h2 {
+  color: #343a40;
+  margin-bottom: 30px;
+}
+audio,
+video {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 10px;
+}
